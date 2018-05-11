@@ -22,6 +22,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './',
+    public:'super-peak.glitch.me',
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000
